@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Projeto feito no módulo Node + Typescript da B7Web seguindo o padrão MVC.",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
+    "start": "node dist/server.js",
+    "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
     "start-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
   "keywords": [],
@@ -17,6 +22,7 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/mustache-express": "^1.2.1",
-    "@types/node": "^16.11.7"
+    "@types/node": "^16.11.7",
+    "copyfiles": "^2.4.1"
   }
 }
