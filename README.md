@@ -11,7 +11,7 @@
 </div>
 
 ## 💻 Projeto
-Project created during the B7 Web's NodeJS course, using NodeJS, Express, Mustache, and following MVC architecture.
+Petshop Project created using NodeJS, Express, Mustache, and following MVC architecture.
 
 ## 🚀 Technologies
 
