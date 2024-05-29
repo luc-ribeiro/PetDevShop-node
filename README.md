@@ -1,11 +1,19 @@
-# PetDevShop
+<div align="center">
+  <h1>
+  PetDevShop
+  </h1>
 
-<img width="100" src="https://github.com/luc-ribeiro/nodets-canil/blob/master/design/logo.png"/>
+  <img width="100" src="https://github.com/luc-ribeiro/nodets-canil/blob/master/design/logo.png"/>
+</div> 
+
+<div align="right">
+  Clique <a href="https://github.com/luc-ribeiro/PetDevShop-node/blob/master/README-PTBR.md">aqui</a> para ver a versão em Português.
+</div>
 
 ## 💻 Projeto
-Projeto criado durante o curso de NodeJS da B7 Web, utilizando NodeJS, Express, Mustache e utilizando arquitetura MVC.
+Project created during the B7 Web's NodeJS course, using NodeJS, Express, Mustache, and following MVC architecture.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
 - **HTML5**
 - **CSS3**
@@ -16,40 +24,35 @@ Projeto criado durante o curso de NodeJS da B7 Web, utilizando NodeJS, Express, 
 
 ![banner](https://github.com/luc-ribeiro/nodets-canil/blob/master/design/pet.gif)
 
-## :page_facing_up: Como utilizar
+## :page_facing_up: How to use
 
-### Pré-requisitos globais:
+### Global prerequisites:
 
 `npm i -g nodemon typescript ts-node`
 
 
-Faça um clone deste repositório:
+Clone this repository:
 
 ```sh
-  $ git clone https://github.com/luc-ribeiro/nodets-canil.git
+  $ git clone https://github.com/luc-ribeiro/PetDevShop-node.git
 ```
 
-Instale as dependências:
+Install dependencies:
 
 ```sh
-  # com npm
+  # with npm
   $ npm install
 
-  # com yarn
+  # with yarn
   $ yarn install
 ```
 
-Inicie o projeto com o comando:
+Start the project with the command:
 
 ```sh
-  # com npm
+  # with npm
   $ npm run start-dev
 
-  # com yarn
+  # with yarn
   $ yarn run start-dev
 ```
-
-
-## :memo: License
-
-Copyright © 2020 Lucas Ribeiro / B7 Web
